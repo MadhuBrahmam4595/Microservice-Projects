@@ -1,0 +1,11 @@
+spring:
+  application:
+   name: order-service-provider
+
+server:
+  port: 9803
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
