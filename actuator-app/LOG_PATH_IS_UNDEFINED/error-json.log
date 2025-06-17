@@ -1,0 +1,1 @@
+{"@timestamp":"2025-06-18T00:23:57.2499475+05:30","@version":"1","message":"This is an ERROR log","logger_name":"com.actuator_app.LogTestController","thread_name":"http-nio-8080-exec-2","level":"ERROR","level_value":40000}

@@ -1,0 +1,31 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: Actuator-Demo
+  output:
+    ansi:
+      enabled: ALWAYS
+
+info:
+  app:
+    name: "Spring Boot Actuator App"
+    description: "Demo app to showcase actuator features"
+    version: "1.1.0"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+  info:
+    env:
+      enabled: true
+
+logging:
+  level:
+    root: INFO
